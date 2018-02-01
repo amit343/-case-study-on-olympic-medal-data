@@ -1,0 +1,2 @@
+usa=olympic[olympic.NOC=='USA']
+usa.groupby('Edition')['Medal'].count()
